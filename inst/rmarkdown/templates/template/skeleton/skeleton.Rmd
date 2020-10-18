@@ -1,0 +1,32 @@
+---
+title: "Documentos CIT"
+author: "Capítulo de Innovación Tecnológica"
+date: "18/10/2020"
+output: pdf_document
+geometry: margin=0.5in
+header-includes:
+- \usepackage{graphicx}
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyhead[R]{\includegraphics[height=1cm]{logo.png}}
+- \fancyfoot[L]{\thepage}
+- \fancyfoot[R]{\textit{ www.cit-its.org }}
+- \fancyfoot[C]{Capítulo de Innovación Tecnológica}
+- \renewcommand{\headrulewidth}{1pt}
+- \usepackage{floatpag}
+- \floatpagestyle{empty}
+---
+```{r  out.width = "20%", fig.align="center", echo=FALSE}
+library(knitr)
+include_graphics("logo.png") 
+```
+
+## Plantilla para documentación del CIT
+
+Cuando crees un nuevo documento no olvides actualizar la información:
+  
+  * Title: título del documento.
+  * Author: en caso de ser necesario cambiar por tu nombre.
+  * Date: fecha de entrega/presentación del documento.
+  
+Una vez actualizado puedes comenzar a agregar el contenido, no olvides eliminar este recordatorio.
